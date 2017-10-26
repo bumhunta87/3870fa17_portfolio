@@ -1,4 +1,20 @@
-/* feedback */
+/* Background Image */
+
+body {
+
+    width: 100%;
+    height: 600px;
+    background-image: url("https://media.architecturaldigest.com/photos/593ab1d158381603535673a5/master/pass/KAWS_20170325-014.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+/*Background Image */
+
+/* Responsive Grid */
+
+/* Responsive Grid */
 
 /* Dropdown Button */
 .dropbtn {
@@ -47,76 +63,4 @@
     background-color: gray;
 }
 
-
-div.gallery {
-    border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.cards {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border: 1px solid black;
-}
-
-/* On mouse-over, add a deeper shadow */
-.cards:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-/* Add some padding inside the card container */
-.container {
-    padding: 2px 16px;
-
-/*card styles*/
-
-.card-section
-
-body {
-  margin: 2rem;
-}
-
-/*card styles*/
+/* Dropdown Button End */
